@@ -8,12 +8,24 @@ import { Component } from '@angular/core';
 export class MenuComponent {
 
   public sidebarItems = [
-    { label: 'Listado', icon: 'label', url: '' },
+    { label: 'Experiencia', url: '#experience' },
 
-    { label: 'Añadir', icon: 'add', url: '' },
+    { label: 'Proyectos', url: '#proyects' },
 
-    { label: 'Buscar', icon: 'search', url: '' }
+    { label: 'Sobre Mi', url: '#about-me' },
+
+    { label: 'Contacto', url: '#contact' }
 
   ]
+
+
+  scrollToSection(event: Event, sectionId: string) {
+    event.preventDefault();  // Previene el salto instantáneo del navegador
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });  // Desplazamiento suave a la sección
+    }
+  }
+
 
 }

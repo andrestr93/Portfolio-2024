@@ -1,0 +1,25 @@
+.navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    gap: 2rem;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        color: #EAB308;
+        cursor: pointer;
+        ;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+
+}
