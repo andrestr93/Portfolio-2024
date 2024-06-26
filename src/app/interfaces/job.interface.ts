@@ -1,20 +1,10 @@
+import { Languaje } from "./languaje.interface"
+
 export interface Job {
+    name_cargo: string
     name_company: string
     description: string
-    experience: number,
-    languaje: Languaje
+    experience: string,
+    languajes: Languaje[]
 }
 
-export enum Languaje {
-
-    Angular = "Angular",
-    TypeScript = "TypeScript",
-    JavaScript = "JavaScript",
-    Nodejs = "NodeJs",
-    Mongodb = "MongoDb",
-    Html = "Html",
-    Css = "Css",
-
-
-
-}

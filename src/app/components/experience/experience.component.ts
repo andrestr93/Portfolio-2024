@@ -1,10 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Profile } from '../../interfaces/profile.interface';
 
 @Component({
-  selector: 'app-experience',
+  selector: 'section-experience',
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.scss'
 })
 export class ExperienceComponent {
+
+  @Input() profile?: Profile
+
 
 }

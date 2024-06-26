@@ -7,6 +7,8 @@ import { MenuComponent } from './shared/components/menu/menu.component';
 import { IntroductionComponent } from './components/introduction/introduction.component';
 import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
 import { ExperienceComponent } from './components/experience/experience.component';
+import { AboutmeComponent } from './components/aboutme/aboutme.component';
+import { TrainingComponent } from './components/training/training.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ExperienceComponent } from './components/experience/experience.componen
     MenuComponent,
     IntroductionComponent,
     LayoutPageComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    AboutmeComponent,
+    TrainingComponent
   ],
   imports: [
     BrowserModule,

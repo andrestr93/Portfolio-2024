@@ -8,18 +8,21 @@
     gap: 2rem;
     width: 100%;
     background-color: transparent;
+    z-index: 1;
 
 
 
     a {
         text-decoration: none;
         color: white;
-        background-color: transparent;
-        ;
+        background-color: darkcyan;
+        border: 1.5px solid black;
+        border-radius: 15px;
+        padding: 15px;
     }
 
     a:hover {
-        color: #EAB308;
+        color: #fef08a;
         cursor: pointer;
         ;
     }
@@ -29,9 +32,4 @@
     }
 
 
-}
-
-section {
-    max-width: 150vh;
-    margin-left: 15vh;
 }

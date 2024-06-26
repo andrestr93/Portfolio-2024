@@ -7,16 +7,7 @@ import { Component } from '@angular/core';
 })
 export class MenuComponent {
 
-  public sidebarItems = [
-    { label: 'Experiencia', url: '#experience' },
 
-    { label: 'Proyectos', url: '#proyects' },
-
-    { label: 'Sobre Mi', url: '#about-me' },
-
-    { label: 'Contacto', url: '#contact' }
-
-  ]
 
 
   scrollToSection(event: Event, sectionId: string) {
