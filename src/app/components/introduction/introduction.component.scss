@@ -1,0 +1,81 @@
+.container {
+
+    padding: 3.125rem;
+
+    .container-img {
+        img {
+            width: 10rem;
+            height: 10rem;
+            border-radius: 25px;
+        }
+
+    }
+
+    div h1,
+    h2 {
+
+        line-height: 1.5;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .introduction {
+
+        color: #fef08a;
+
+    }
+
+    .subtitule {
+
+        color: white;
+    }
+
+    .container-actions {
+
+        display: flex;
+        gap: 5rem;
+
+        a {
+            text-decoration: none;
+        }
+
+        .button {
+            span {
+                background-color: transparent;
+
+                svg {
+                    background-color: transparent;
+                }
+            }
+
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            gap: 1.3rem;
+            padding: 0.4rem 0.9rem 0.4rem 0.9rem;
+            cursor: pointer;
+            background-color: darkcyan;
+            font-size: 20px;
+            border-radius: 10px;
+
+
+        }
+
+        .button:hover {
+            background-color: #EAB308;
+            cursor: pointer;
+
+        }
+
+    }
+
+
+
+
+}

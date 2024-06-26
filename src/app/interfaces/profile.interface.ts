@@ -1,6 +1,7 @@
 import { Job } from './job.interface';
 export interface Profile {
 
+    subtitule: string
     introduction: string
     name: string,
     surname: string,

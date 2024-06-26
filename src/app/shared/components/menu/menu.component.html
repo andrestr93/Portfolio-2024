@@ -1,16 +1,23 @@
 <div class="container">
-  <nav class="navbar">
-    <a href="#experience" (click)="scrollToSection($event, 'experience')"
-      >Experiencia</a
-    >
-    <a href="#proyects" (click)="scrollToSection($event, 'proyects')"
-      >Proyectos</a
-    >
-    <a href="#about-me" (click)="scrollToSection($event, 'about-me')"
-      >Sobre Mi</a
-    >
-    <a href="#contact" (click)="scrollToSection($event, 'contact')">Contacto</a>
-  </nav>
+  <div class="container-nav">
+    <nav class="navbar">
+      <a href="#experience" (click)="scrollToSection($event, 'experience')"
+        >Experiencia</a
+      >
+      <a href="#proyects" (click)="scrollToSection($event, 'proyects')"
+        >Proyectos</a
+      >
+      <a href="#about-me" (click)="scrollToSection($event, 'about-me')"
+        >Sobre Mi</a
+      >
+      <a href="#contact" (click)="scrollToSection($event, 'contact')"
+        >Contacto</a
+      >
+    </nav>
+  </div>
+  <section>
+    <introduction></introduction>
+  </section>
 
   <section id="experience">
     <h2>Experiencia</h2>
