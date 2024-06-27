@@ -5,4 +5,11 @@
     font-family: Onest, system-ui, sans-serif;
     color: white;
 
+
+    @media (max-width: 1330px) {
+
+        margin-left: 0px;
+        padding-left: 0px;
+
+    }
 }

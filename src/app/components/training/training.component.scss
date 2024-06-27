@@ -37,6 +37,12 @@
                 .title-container {
                     min-width: max-content;
 
+                    @media (max-width: 412px) {
+
+                        min-width: min-content;
+
+                    }
+
                     h3 {
                         color: #ffc107; // Color del texto del título
                         font-size: larger;

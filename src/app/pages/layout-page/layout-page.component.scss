@@ -3,4 +3,11 @@ section {
     margin-left: 15vh;
     padding: 3.125rem;
 
+    @media (max-width: 426px) {
+
+        margin-left: 0vh;
+        padding: 0;
+
+    }
+
 }

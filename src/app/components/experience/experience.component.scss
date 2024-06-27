@@ -37,27 +37,35 @@
                 .title-container {
                     min-width: max-content;
 
-                    h3 {
-                        color: #ffc107; // Color del texto del título
-                        font-size: larger;
-                        margin: 0;
-                    }
-
-                    h4 {
-                        margin: 0;
-                    }
-
-                    time {
-                        display: block;
-                        font-size: 0.9em;
-                        color: #ccc; // Color del tiempo
-                    }
                 }
+
+                h3 {
+                    color: #ffc107; // Color del texto del título
+                    font-size: larger;
+                    margin: 0;
+                }
+
+                h4 {
+                    margin: 0;
+                }
+
+                time {
+                    display: block;
+                    font-size: 0.9em;
+                    color: #ccc; // Color del tiempo
+                }
+
             }
 
             .timeline-body {
                 margin-top: 10px;
                 color: #ccc; // Color del texto del cuerpo
+
+                @media (max-width: 412px) {
+
+                    min-width: 20rem;
+
+                }
             }
         }
     }

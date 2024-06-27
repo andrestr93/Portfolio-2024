@@ -37,6 +37,24 @@ export class LayoutPageComponent {
 
 
 
+    ],
+
+    training: [
+      {
+        training: 'CFGS Desarrollo de Aplicaciones Multiplataforma',
+        institution: 'I.E.S Francisco Ayala', duration: 'Septiembre - 2018 | Mayo - 2020'
+      },
+
+      {
+        training: 'Curso de Angular 2024',
+        institution: 'Dev Talles | Fernando Herrera', duration: '2 Semanas'
+      }
+
+
+
+
+
+
     ]
 
 
