@@ -11,7 +11,9 @@ export class HeroImagePipe implements PipeTransform {
             return 'assets/laboral.png'
         }
 
-        return ''
+        const error = 'no esta correcta la ruta '
+
+        return error
 
 
     }
