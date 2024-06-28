@@ -8,8 +8,10 @@ export class HeroImagePipe implements PipeTransform {
 
     transform(profile: Profile): string {
         if (profile.img) {
-            return 'portfolio-2024/assets/laboral.png'
+            return '/assets/laboral.png '
         }
+
+        console.log('error en la ruta de imagen')
 
         const error = 'no esta correcta la ruta '
 
