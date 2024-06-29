@@ -18,6 +18,7 @@ export class IntroductionComponent implements OnInit {
 
   openLetter() {
     const url = '/assets/recomendacion.pdf'; // Ruta al archivo PDF en la carpeta assets
+    console.log('se abre el archivo ')
     window.open(url, '_blank');
   }
 }
