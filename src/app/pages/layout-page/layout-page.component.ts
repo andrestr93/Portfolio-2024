@@ -16,7 +16,7 @@ export class LayoutPageComponent {
     aboutme: 'Soy una persona responsable y autodidacta, siempre motivada por el deseo de trabajar y emprender nuevos proyectos. Mi pasión por el deporte y la vida sana me impulsa a mantenerme activo y a cuidar mi bienestar, lo cual me ayuda a mantener un equilibrio en todas las áreas de mi vida. Además, estoy en constante aprendizaje, buscando siempre adquirir nuevas habilidades y conocimientos que me permitan crecer tanto personal como profesionalmente. Mi enfoque y determinación me llevan a enfrentar cada desafío con entusiasmo y dedicación.',
     surname: 'Torcuato Rodríguez',
     city: 'Granada',
-    img: '/',
+    img: '/assets/laboral.png',
     telephone: 658104590,
     jobs: [
       {
