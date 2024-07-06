@@ -45,6 +45,12 @@
             border: 1.5px solid black;
             border-radius: 15px;
             padding: 15px;
+
+            @media (max-width: 450px) {
+
+                font-size: small;
+
+            }
         }
 
         a:hover {

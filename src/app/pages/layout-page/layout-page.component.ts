@@ -13,7 +13,7 @@ export class LayoutPageComponent {
     subtitule: 'especializado en Angular junto con JavaScript | TypeScript. Destacado por el desarrollo e implementación de nuevas funcionalidades, optimización de código y solución eficaz de bugs. Con una marcada habilidad para el aprendizaje rápido y la mejora continua, aporto soluciones innovadoras y de alta calidad que contribuyen aléxito de los proyectos.',
     introduction: 'Profesional autodidacta y dinámico con 2 años de experiencia en desarrollo de software',
     name: 'Andrés Jesús',
-    aboutme: 'Soy una persona responsable y autodidacta, siempre motivada por el deseo de trabajar y emprender nuevos proyectos. Mi pasión por el deporte y la vida sana me impulsa a mantenerme activo y a cuidar mi bienestar, lo cual me ayuda a mantener un equilibrio en todas las áreas de mi vida. Además, estoy en constante aprendizaje, buscando siempre adquirir nuevas habilidades y conocimientos que me permitan crecer tanto personal como profesionalmente. Mi enfoque y determinación me llevan a enfrentar cada desafío con entusiasmo y dedicación.',
+    aboutme: 'Soy una persona responsable y autodidacta, siempre motivada para trabajar y emprender nuevos proyectos.  Además, estoy en constante aprendizaje, buscando siempre adquirir nuevas habilidades y conocimientos que me permitan crecer  profesionalmente. Mi enfoque y determinación me llevan a enfrentar cada desafío con entusiasmo y dedicación.',
     surname: 'Torcuato Rodríguez',
     city: 'Granada',
     img: '/assets/laboral.png',
