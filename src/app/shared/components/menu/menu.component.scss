@@ -10,7 +10,7 @@
 
     .navbar {
 
-
+        background-color: transparent;
 
         @media (min-width: 375px) {
             display: flex;
@@ -21,7 +21,6 @@
             gap: 2rem;
             width: 100%;
             z-index: 1;
-            background-color: transparent;
 
         }
 

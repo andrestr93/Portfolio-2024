@@ -37,6 +37,13 @@
                 .title-container {
                     min-width: max-content;
 
+                    .container-icons {
+
+                        display: flex;
+                        gap: 1rem;
+
+                    }
+
                 }
 
                 h3 {

@@ -9,6 +9,11 @@
             <h3>{{ job.name_cargo }}</h3>
             <h4>{{ job.name_company }}</h4>
             <time>{{ job.experience }}</time>
+            <div class="container-icons">
+              <div *ngFor="let lg of job?.technology">
+                <h5><img src="{{ lg.icon }}" /></h5>
+              </div>
+            </div>
           </div>
         </div>
         <div class="timeline-body">
