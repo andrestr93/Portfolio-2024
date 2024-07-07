@@ -21,7 +21,7 @@ export class LayoutPageComponent {
     jobs: [
       {
         name_cargo: 'Desarrollador Front',
-        name_company: 'Cargoffer', description: 'Desarrollo de nuevas funcionalidades: Capacidad para interpretar y ejecutar los requerimientos específicos del proyecto, garantizando soluciones innovadoras y eficientes que se alinean con los objetivos del negocio. Corrección de bugs: Destreza en la identificación y resolución efectiva de errores, mejorando la estabilidad y la fiabilidad del software. Mejora del código: Compromiso con la calidad del código a través de su optimización y refactorización, asegurando su escalabilidad y mantenibilidad.', experience: 'Mayo-2023 | Mayo - 2024 ', technology:
+        name_company: 'Cargoffer', functions: ['Desarrollo de nuevas funcionalidades: Capacidad para interpretar y ejecutar los requerimientos específicos del proyecto, garantizando soluciones innovadoras y eficientes que se alinean con los objetivos del negocio. ', 'Corrección de bugs: Destreza en la identificación y resolución efectiva de errores, mejorando la estabilidad y la fiabilidad del software.', 'Mejora del código: Compromiso con la calidad del código a través de su optimización y refactorización, asegurando su escalabilidad y mantenibilidad.'], experience: 'Mayo-2023 | Mayo - 2024 ', technology:
           [{ tecnology: 'JavaScript', icon: '/assets/icons/icon-javascript.png' },
           { tecnology: 'Angular', icon: '/assets/icons/icon-angular.png' },
           { tecnology: 'TypeScript', icon: '/assets/icons/icon-typescript.png' },
@@ -33,7 +33,7 @@ export class LayoutPageComponent {
 
       {
         name_cargo: 'Desarrollador Front',
-        name_company: 'NttData', description: 'Aplicación de la metodologia Scrum y trabajo mediante Sprints con Jira .Mejora del código: Compromiso con la calidad del código a través de su optimización y refactorización, asegurando su escalabilidad y mantenibilidad.', experience: 'Mayo-2021 | Noviembre-2021', technology:
+        name_company: 'NttData', functions: ['Aplicación de la metodologia Scrum y trabajo mediante Sprints con Jira .', 'Mejora del código: Compromiso con la calidad del código a través de su optimización y refactorización, asegurando su escalabilidad y mantenibilidad.'], experience: 'Mayo-2021 | Noviembre-2021', technology:
           [{ tecnology: 'JavaScript', icon: '/assets/icons/icon-javascript.png' }, { tecnology: 'SapUI5', icon: '/assets/icons/icon-sap.png' }, { tecnology: 'Html5', icon: '/assets/icons/icon-html5.png' }, { tecnology: 'Css', icon: '/assets/icons/icon-scss.png' }
 
           ]

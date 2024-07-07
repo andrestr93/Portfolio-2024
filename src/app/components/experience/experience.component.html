@@ -16,8 +16,8 @@
             </div>
           </div>
         </div>
-        <div class="timeline-body">
-          {{ job.description }}
+        <div *ngFor="let item of job.functions" class="timeline-body">
+          {{ item }}
         </div>
       </div>
     </li>
