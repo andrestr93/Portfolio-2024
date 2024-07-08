@@ -10,7 +10,7 @@ import { Profile } from '../../interfaces/profile.interface';
 export class LayoutPageComponent {
 
   public profile: Profile = {
-    subtitule: 'especializado en Angular junto con JavaScript | TypeScript. Destacado por el desarrollo e implementación de nuevas funcionalidades, optimización de código y solución eficaz de bugs. Con una marcada habilidad para el aprendizaje rápido y la mejora continua, aporto soluciones innovadoras y de alta calidad que contribuyen aléxito de los proyectos.',
+    subtitule: 'especializado en Angular junto con JavaScript | TypeScript. Destacado por el desarrollo e implementación de nuevas funcionalidades, optimización de código y solución eficaz de bugs. Con una marcada habilidad para el aprendizaje rápido y la mejora continua, aporto soluciones innovadoras y de alta calidad que contribuyen al éxito de los proyectos.',
     introduction: 'Profesional autodidacta y dinámico con 2 años de experiencia en desarrollo de software',
     name: 'Andrés Jesús',
     aboutme: 'Soy una persona responsable y autodidacta, siempre motivada para trabajar y emprender nuevos proyectos.  Además, estoy en constante aprendizaje, buscando siempre adquirir nuevas habilidades y conocimientos que me permitan crecer  profesionalmente. Mi enfoque y determinación me llevan a enfrentar cada desafío con entusiasmo y dedicación.',
@@ -51,7 +51,7 @@ export class LayoutPageComponent {
 
       {
         training: 'Curso de Angular 2024',
-        institution: 'Dev Talles | Fernando Herrera', duration: '2 Semanas'
+        institution: 'Dev Talles | Fernando Herrera', duration: 'Agosto-2024'
       }
 
 
