@@ -25,11 +25,11 @@ export class LayoutPageComponent {
           'Corrección de bugs: Destreza en la identificación y resolución efectiva de errores, mejorando la estabilidad y la fiabilidad del software.',
           'Mejora del código: Compromiso con la calidad del código a través de su optimización y refactorización, asegurando su escalabilidad y mantenibilidad.', 'Mejora y optimización de la app con Ionic  '],
         experience: 'Mayo-2023 | Mayo - 2024 ', technology:
-          [{ tecnology: 'JavaScript', icon: '/assets/icons/icon-javascript.png' },
-          { tecnology: 'Angular', icon: '/assets/icons/icon-angular.png' },
-          { tecnology: 'TypeScript', icon: '/assets/icons/icon-typescript.png' },
-          { tecnology: 'Html5', icon: '/assets/icons/icon-html5.png' },
-          { tecnology: 'Scss', icon: '/assets/icons/icon-scss.png' },
+          [{ tecnology: 'JavaScript', icon: '/assets/icons/javascript.svg' },
+          { tecnology: 'Angular', icon: '/assets/icons/angular.png' },
+          { tecnology: 'TypeScript', icon: '/assets/icons/typescript.svg' },
+          { tecnology: 'Html5', icon: '/assets/icons/html5.svg' },
+          { tecnology: 'Scss', icon: '/assets/icons/sass.svg' },
           { tecnology: 'Ionic', icon: '/assets/icons/icon-ionic.png' }
 
           ]
@@ -38,7 +38,9 @@ export class LayoutPageComponent {
       {
         name_cargo: 'Desarrollador Front',
         name_company: 'NttData', functions: ['Aplicación de la metodologia Scrum y trabajo mediante Sprints con Jira .', 'Mejora del código: Compromiso con la calidad del código a través de su optimización y refactorización, asegurando su escalabilidad y mantenibilidad.'], experience: 'Mayo-2021 | Noviembre-2021', technology:
-          [{ tecnology: 'JavaScript', icon: '/assets/icons/icon-javascript.png' }, { tecnology: 'SapUI5', icon: '/assets/icons/icon-sap.png' }, { tecnology: 'Html5', icon: '/assets/icons/icon-html5.png' }, { tecnology: 'Css', icon: '/assets/icons/icon-scss.png' }
+          [{ tecnology: 'JavaScript', icon: '/assets/icons/javascript.svg' },
+          { tecnology: 'SapUI5', icon: '/assets/icons/icon-sap.png' },
+          { tecnology: 'Html5', icon: '/assets/icons/html5.svg' }
 
           ]
       }
